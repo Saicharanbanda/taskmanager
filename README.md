@@ -2,12 +2,13 @@
 
 A lightweight, interactive Spring Boot web application designed to track, organize, and manage daily tasks efficiently. This project features a responsive web dashboard utilizing Thymeleaf templates, a robust Java service backend, and interactive status controls.
 
+PROJECT URL:https://github.com/Saicharanbanda/taskmanager
+
 ---
 
 ## 🚀 Features
 
 * **Interactive Web Dashboard:** Clean HTML/CSS interface built with Thymeleaf for real-time task visualization.
-* **Complete CRUD Operations:** Create, read, update, and delete tasks seamlessly from the UI.
 * **Dynamic Status Updates:** Instantly toggle task completion status and update structural data.
 * **Spring Architecture:** Structured using the Model-View-Controller (MVC) design pattern with dedicated layers for Controllers, Services, and Models.
 
