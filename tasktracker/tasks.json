@@ -1,0 +1,25 @@
+[ {
+  "id" : 1,
+  "description" : "Finish my Spring Boot CLI project",
+  "status" : "in-progress",
+  "createdAt" : [ 2026, 6, 9, 16, 43, 47, 872447000 ],
+  "updatedAt" : [ 2026, 6, 9, 16, 44, 29, 651166000 ]
+}, {
+  "id" : 2,
+  "description" : "Go for a run",
+  "status" : "todo",
+  "createdAt" : [ 2026, 6, 9, 16, 43, 48, 673762000 ],
+  "updatedAt" : [ 2026, 6, 9, 16, 43, 48, 673767000 ]
+}, {
+  "id" : 3,
+  "description" : "clean the dishes",
+  "status" : "todo",
+  "createdAt" : [ 2026, 6, 9, 16, 59, 19, 539191000 ],
+  "updatedAt" : [ 2026, 6, 9, 16, 59, 19, 539200000 ]
+}, {
+  "id" : 4,
+  "description" : "Upload this project to git",
+  "status" : "todo",
+  "createdAt" : [ 2026, 6, 10, 13, 42, 0, 430008000 ],
+  "updatedAt" : [ 2026, 6, 10, 13, 42, 0, 430016000 ]
+} ]

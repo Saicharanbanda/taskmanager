@@ -1,0 +1,7 @@
+com/cli/tasktracker/TaskCliRunner.class
+com/cli/tasktracker/Task.class
+com/cli/tasktracker/TaskRepository$1.class
+com/cli/tasktracker/TaskRepository.class
+com/cli/tasktracker/TasktrackerApplication.class
+com/cli/tasktracker/TaskService.class
+com/cli/tasktracker/TaskController.class

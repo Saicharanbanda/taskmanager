@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Task Tracker Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #007bff; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .status { font-weight: bold; text-transform: uppercase; }
+
+        /* New Styles for the Input Form */
+        .form-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        input[type="text"] { width: 70%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; }
+        button { padding: 10px 20px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
+        button:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+<h2>My Task Tracker Dashboard</h2>
+
+<div class="form-container">
+    <form th:action="@{/tasks/add}" method="POST">
+        <input type="text" name="description" placeholder="Enter a new task description..." required>
+        <button type="submit">Add Task</button>
+    </form>
+</div>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Description</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="task : ${tasks}">
+        <td th:text="${task.id}">1</td>
+        <td th:text="${task.description}">Sample Task</td>
+        <td class="status" th:text="${task.status}">Todo</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
